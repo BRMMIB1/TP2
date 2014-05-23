@@ -1,16 +1,19 @@
 #container
 {
-	margin: 0 30px;
-	background: #fff;
+	margin: 0 200px;
+	background:;
 }
 
 #header
 {
-	background: #ccc;
-	padding: 20px;
+	background: #9FB7FF;
+	padding: 10px;
+box-shadow: 0px 0px 15px #000000;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+	
+        font-family: overpass; }
 
 #navigation
 {
@@ -49,15 +52,18 @@
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
-	border-radius: 18px;
+	
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	box-shadow: 0px 0px 9px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background: #9FB7FF;
+	
+	font-family: overpass;
 }
 
 #edito h2
@@ -65,6 +71,7 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+	text-align: center;
 }
 
 #news
@@ -74,7 +81,6 @@
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
-	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
@@ -83,13 +89,24 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background: #9FB7FF;
+	
+	font-family: overpass;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: #9FB7FF;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
+
+	background: #9FB7FF;
+	
+	font-family: overpass;
+
+.a
+{
+text-decoration: none;	
 }
